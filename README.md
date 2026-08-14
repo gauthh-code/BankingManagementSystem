@@ -77,8 +77,6 @@ cd ..
 java BankingManagementSystem.BankApp
 ```
 
-> **Note:** if your files live flat inside `src/` instead of a nested `BankingManagementSystem` subfolder, remove the `package BankingManagementSystem;` line from every file and run `javac *.java` / `java BankApp` directly from inside `src`.
-
 ---
 
 ## 🧩 Design Decisions Worth Noting
@@ -90,12 +88,6 @@ java BankingManagementSystem.BankApp
 
 ---
 
-## 🛣️ What's Next
-
-- [ ] JDBC-based persistence (SQL) so data survives beyond a single run
-- [ ] A Spring Boot version of this same domain model, with REST endpoints and a proper service/repository layer
-
----
 
 <div align="center">
 
